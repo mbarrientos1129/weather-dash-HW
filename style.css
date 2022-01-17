@@ -1,0 +1,24 @@
+.jumbotron{
+    background-color: navy;
+}
+
+.container{
+    margin-right: 100px;
+
+}
+
+.five-day-forcast{
+    text-align: center;
+}
+
+.current-city{
+    padding-left: 20%;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    text-align: center;
+    width: auto;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 25px;
+
+}

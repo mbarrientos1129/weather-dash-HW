@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="jumbotron jumbotron-fluid custom-jumbotron text-light">
+        <div class="container-fluid text-center">
+            <h1 class=display-5>Wheather Dash</h1>
+        </div>
+    </header>
+    <div class="container">
+        <label class="form-label">Search for a City!</label>
+        <input id="city" class="city-search" placeholder="Type to search...">
+        <button class="btn btn-primary">Search</button>
+    </div>
+    <div class="current-city container">
+        <div class=" row row-cols-4">
+            <div class="row" id="city-name"></div>
+            <div class="row" id="temperature"></div>
+            <div class="row" id="humidity"></div>
+            <div class="row" id="wind-speed"></div>
+        </div>
+    </div>
+    <div class="five-day-forcast">
+        <div class="col card-col">
+            <div class="card forecast-card" style="width: 10rem;">
+                <ul class="list-group">
+                    <li class="list-group-item forecast-card" id="card-1-date">Search for Forcast</li>
+                    <li class="list-group-item forecast-card" id="card-1-temperature"></li>
+                    <li class="list-group-item forecast-card" id="card-1-wind-speed"></li>
+                    <li class="list-group-item forecast-card" id="card-1-humidity"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col card-col">
+            <div class="card forecast-card" style="width: 10rem;">
+                <ul class="list-group">
+                    <li class="list-group-item forecast-card" id="card-2-date">Search for Forcast</li>
+                    <li class="list-group-item forecast-card" id="card-2-temperature"></li>
+                    <li class="list-group-item forecast-card" id="card-2-wind-speed"></li>
+                    <li class="list-group-item forecast-card" id="card-2-humidity"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col card-col">
+            <div class="card forecast-card" style="width: 10rem;">
+                <ul class="list-group">
+                    <li class="list-group-item forecast-card" id="card-3-date">Search for Forcast</li>
+                    <li class="list-group-item forecast-card" id="card-3-temperature"></li>
+                    <li class="list-group-item forecast-card" id="card-3-wind-speed"></li>
+                    <li class="list-group-item forecast-card" id="card-3-humidity"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col card-col">
+            <div class="card forecast-card" style="width: 10rem;">
+                <ul class="list-group">
+                    <li class="list-group-item forecast-card" id="card-4-date">Search for Forcast</li>
+                    <li class="list-group-item forecast-card" id="card-4-temperature"></li>
+                    <li class="list-group-item forecast-card" id="card-4-wind-speed"></li>
+                    <li class="list-group-item forecast-card" id="card-4-humidity"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col card-col">
+            <div class="card forecast-card" style="width: 10rem;">
+                <ul class="list-group">
+                    <li class="list-group-item forecast-card" id="card-5-date">Search for Forcast</li>
+                    <li class="list-group-item forecast-card" id="card-5-temperature"></li>
+                    <li class="list-group-item forecast-card" id="card-5-wind-speed"></li>
+                    <li class="list-group-item forecast-card" id="card-5-humidity"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
